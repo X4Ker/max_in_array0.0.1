@@ -4,11 +4,12 @@
 using namespace std;
 
 int main() {
-	int a[10];
+	int a[10], l;
 	int max = 0;
 	for (int i = 0; i < 10; i++) {
 		if (!(cin >> a[i])) {
 			cout << "An error has occurred while reading numbers";
+			l = -1;
 			break;
 		}
 
@@ -18,7 +19,7 @@ int main() {
 			max = a[i];
 		}
 	}
-	cout << "MAX = " << max;
+	if(l != -1) {cout << "MAX = " << max;}
 	system("pause");
 	return 0;
  }

@@ -9,7 +9,7 @@ int main() {
 	for (int i = 0; i < 10; i++) {
 		if (!(cin >> a[i])) {
 			cout << "An error has occurred while reading numbers";
-      l = -1;
+                        l = -1;
 			break;
 		}
 
@@ -17,6 +17,7 @@ int main() {
 	for (int j = 0; j < 10; j++) {
 		if (!(cin >> b[j])) {
 			cout << "An error has occurred while reading numbers";
+			l = -1;
 			break;
 		}
 

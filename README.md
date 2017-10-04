@@ -1,1 +1,1 @@
-# max_in_array0.0.1
+# max_in_array
